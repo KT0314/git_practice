@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>我的自我介紹網站</title>
+
+    <style>
+        /* 整體背景設定 */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+        }
+
+        /* 導覽列 */
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        /* 主標題區 */
+        header {
+            text-align: center;
+            padding: 40px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 48px;
+        }
+
+        /* 卡片樣式 */
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* 圖片 */
+        .profile-img {
+            display: block;
+            margin: auto;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        /* 清單 */
+        ul {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        /* 頁尾 */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <nav>
+        <a href="#about">關於我</a>
+        <a href="#hobby">興趣</a>
+        <a href="#skill">技能</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+
+    <!-- 標題 -->
+    <header>
+        <h1>我的自我介紹網站</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <div class="container">
+
+        <!-- 個人資料 -->
+        <div class="card" id="about">
+            <h2>基本資料</h2>
+
+            <img src="me.jpg" alt="我的照片" class="profile-img">
+
+            <p><strong>姓名：</strong>柯禹彤</p>
+            <p><strong>學校：</strong>靜宜大學</p>
+            <p><strong>科系：</strong>資工系</p>
+            <p><strong>年級：</strong>二年級</p>
+        </div>
+
+        <!-- 興趣 -->
+        <div class="card" id="hobby">
+            <h2>我的興趣</h2>
+
+            <ul>
+                <li>打排球</li>
+                <li>寫程式</li>
+                <li>玩遊戲</li>
+                <li>聽音樂</li>
+                <li>看電影</li>
+            </ul>
+        </div>
+
+        <!-- 技能 -->
+        <div class="card" id="skill">
+            <h2>我的技能</h2>
+
+            <ul>
+                <li>HTML / CSS</li>
+                <li>Java 程式設計</li>
+                <li>基本資料結構</li>
+                <li>樹莓派操作</li>
+                <li>簡單網站設計</li>
+            </ul>
+        </div>
+
+        <!-- 聯絡方式 -->
+        <div class="card" id="contact">
+            <h2>聯絡方式</h2>
+
+            <p>Email：yoyo950314yoyo@gmail.com</p>
+            <p>電話：0966330xxx</p>
+            <p>Instagram：tong</p>
+        </div>
+
+    </div>
+
+    <!-- 頁尾 -->
+    <footer>
+        <p>© 2026 我的自我介紹網站 | Designed by Me</p>
+    </footer>
+
+</body>
+</html>
